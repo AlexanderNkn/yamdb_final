@@ -1,7 +1,4 @@
 version: '3.8'
-volumes:
-  postgres_data:
-  static_volume:
 services:
   db:
     image: postgres:latest
@@ -16,7 +13,7 @@ services:
     restart: always
     command: gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000
     volumes:
-      - static_volume:/code/static/
+      - static_volume:/usr/src/app/static/
     expose:
       - 8000
     depends_on:
@@ -26,8 +23,11 @@ services:
   nginx:
     build: ./nginx
     volumes:
-      - static_volume:/code/static/
+      - static_volume:/usr/src/app/static/
     ports:
       - 8000:80
     depends_on:
       - web
+volumes:
+  postgres_data:
+  static_volume:
