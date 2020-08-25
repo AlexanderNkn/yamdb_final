@@ -1,0 +1,909 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2020-08-13T10:27:58.250Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "лев_толстой",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2020-08-13T10:28:33.937Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "лев_толстой",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2020-08-13T10:30:34.974Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "bingobongo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2020-08-13T10:31:33.661Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "bingobongo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2020-08-13T10:32:09.756Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "capt_obvious",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2020-08-13T10:32:35.851Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "capt_obvious",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Role\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2020-08-13T10:33:04.094Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "angry",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2020-08-13T10:33:22.609Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "angry",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Role\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2020-08-13T10:52:34.994Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "admin",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2020-08-13T11:05:46.585Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Фильм",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2020-08-13T11:06:07.204Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Книга",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2020-08-13T11:06:24.336Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Музыка",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2020-08-13T11:16:37.395Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Побег из Шоушенка",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2020-08-13T11:17:20.222Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Список Шиндлера",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2020-08-13T11:17:48.407Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Звёздные войны. Эпизод 5: Империя наносит ответный удар",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add comment",
+            "content_type": 6,
+            "codename": "add_comment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change comment",
+            "content_type": 6,
+            "codename": "change_comment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete comment",
+            "content_type": 6,
+            "codename": "delete_comment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view comment",
+            "content_type": 6,
+            "codename": "view_comment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add review",
+            "content_type": 7,
+            "codename": "add_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change review",
+            "content_type": 7,
+            "codename": "change_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete review",
+            "content_type": 7,
+            "codename": "delete_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view review",
+            "content_type": 7,
+            "codename": "view_review"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 8,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 8,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 8,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 8,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 9,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 9,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 9,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 9,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add genre",
+            "content_type": 10,
+            "codename": "add_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change genre",
+            "content_type": 10,
+            "codename": "change_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete genre",
+            "content_type": 10,
+            "codename": "delete_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view genre",
+            "content_type": 10,
+            "codename": "view_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add title",
+            "content_type": 11,
+            "codename": "add_title"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change title",
+            "content_type": 11,
+            "codename": "change_title"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete title",
+            "content_type": 11,
+            "codename": "delete_title"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view title",
+            "content_type": 11,
+            "codename": "view_title"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "reviews",
+            "model": "comment"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "reviews",
+            "model": "review"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "users",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "contents",
+            "model": "category"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "contents",
+            "model": "genre"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "contents",
+            "model": "title"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pvxkj2jnvjqxgt5do5h459chii2a611w",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQAP_C2RCWQkGP3n0D2YVFqgaS0p6MfzckPeh1ZjJvEXDfStg7r2FJ4iJAnH4ZYXxyHSI9sN6bjK1u60JyJPKwXd5a4tf1aP8GBXsZ25k1k40-K-8NTkpHC9GpnAA4ExowjMDoALP2ls6kjVM0T-AJLbP4fAHsPDhD:1k6APb:WjO6iW7hir49gHmEbXvSX8qlwX_WJfJeSRk9PL6M7Dg",
+            "expire_date": "2020-08-27T10:24:43.399Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 1,
+        "fields": {
+            "title": 1,
+            "text": "\"Ставлю десять звёзд!\n...Эти голоса были чище и светлее тех, о которых мечтали в этом сером, убогом месте. Как будто две птички влетели и своими голосами развеяли стены наших клеток, и на короткий миг каждый человек в Шоушенке почувствовал себя свободным.\"",
+            "author": 1,
+            "score": 10,
+            "pub_date": "2020-08-13T11:28:46.454Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 2,
+        "fields": {
+            "title": 2,
+            "text": "Посмотрел фильм. \n— На свете есть два типа людей: те, кто копает и те, у кого заряжен револьвер.\nПойду копать, как велел Клинт.",
+            "author": 1,
+            "score": 5,
+            "pub_date": "2020-08-13T11:30:26.648Z"
+        }
+    },
+    {
+        "model": "reviews.review",
+        "pk": 3,
+        "fields": {
+            "title": 3,
+            "text": "Внимательно слежу за всеми новыми изданиями, покупаю каждое. Лучший триллер тысячелетия — это «Колобок»",
+            "author": 1,
+            "score": 3,
+            "pub_date": "2020-08-13T11:32:50.287Z"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 2,
+        "fields": {
+            "review": 3,
+            "text": "Ничего подобного, в фильме всё не так, и программирование тут вообще ни при чём!",
+            "author": 1,
+            "pub_date": "2020-08-13T11:38:09.536Z"
+        }
+    },
+    {
+        "model": "reviews.comment",
+        "pk": 3,
+        "fields": {
+            "review": 1,
+            "text": "Кстати, а что такое \"\"четверть фунта\"\"? В граммах это сколько?",
+            "author": 1,
+            "pub_date": "2020-08-13T11:39:20.091Z"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$w2riUzvLPEHi$xlrqLG0eJop6Ft3zz4QS4Ms5ET0bud7Txr2s5DvslQE=",
+            "last_login": "2020-08-13T10:24:43Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-08-13T10:14:13Z",
+            "bio": "",
+            "role": "admin",
+            "email": "admin@mail.ru",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$YJkWj7oe6Hzk$YC4FlTO0nOS1tpeiLa/K10OIH7n7bnG40i696AiBjwQ=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "bingobongo",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-08-13T10:30:34Z",
+            "bio": "",
+            "role": "user",
+            "email": "bingobongo@yamdb.fake",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$wKSJ7xyeLicP$GCTVlkiIIX8BBgyNC0vS6uC8Yp04WCPcDiBHPQU4jbs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "capt_obvious",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-08-13T10:32:09Z",
+            "bio": "",
+            "role": "admin",
+            "email": "capt_obvious@yamdb.fake",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$iPDMKbXKnIgw$mrWEZMu4k1eiXU8UoSlCtQ6CHUn29p7EJ5YnTHkrAuM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "angry",
+            "first_name": "",
+            "last_name": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2020-08-13T10:33:03Z",
+            "bio": "",
+            "role": "moderator",
+            "email": "angry@yamdb.fake",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contents.category",
+        "pk": 1,
+        "fields": {
+            "name": "Фильм",
+            "slug": "movie"
+        }
+    },
+    {
+        "model": "contents.category",
+        "pk": 2,
+        "fields": {
+            "name": "Книга",
+            "slug": "book"
+        }
+    },
+    {
+        "model": "contents.category",
+        "pk": 3,
+        "fields": {
+            "name": "Музыка",
+            "slug": "music"
+        }
+    },
+    {
+        "model": "contents.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Драма",
+            "slug": "drama"
+        }
+    },
+    {
+        "model": "contents.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Комедия",
+            "slug": "comedy"
+        }
+    },
+    {
+        "model": "contents.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Вестерн",
+            "slug": "western"
+        }
+    },
+    {
+        "model": "contents.title",
+        "pk": 1,
+        "fields": {
+            "name": "Побег из Шоушенка",
+            "year": 1994,
+            "description": null,
+            "category": 1,
+            "genre": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "contents.title",
+        "pk": 2,
+        "fields": {
+            "name": "Список Шиндлера",
+            "year": 1993,
+            "description": null,
+            "category": 2,
+            "genre": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "contents.title",
+        "pk": 3,
+        "fields": {
+            "name": "Звёздные войны. Эпизод 5: Империя наносит ответный удар",
+            "year": 1980,
+            "description": null,
+            "category": 3,
+            "genre": [
+                3
+            ]
+        }
+    }
+]
