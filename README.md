@@ -1,6 +1,8 @@
 # yamdb_final
 Это REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
+![example workflow file path](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg)
+
 ### Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.
@@ -10,11 +12,11 @@
 ### Установка
 - склонируйте проект с реппозитория GitHub
     ```
-    git clone https://github.com/AlexanderNkn/infra_sp2.git
+    git clone https://github.com/AlexanderNkn/yamdb_final.git
     ```
-- перейдите в директорию infra_sp2/
+- перейдите в директорию yamdb_final/
     ```
-    cd infra_sp2/
+    cd yamdb_final/
     ```
 - запустите docker-compose
     ```
