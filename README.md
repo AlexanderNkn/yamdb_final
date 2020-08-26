@@ -1,8 +1,6 @@
 # yamdb_final
 
-[![yamdb Actions Status](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg)](https://github.com/AlexanderNkn/yamdb_final/actions)
-
-![example workflow file path](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg)
+![yamdb workflow status](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb/badge.svg)
 
 Это REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
