@@ -15,7 +15,7 @@ jobs:
     - name: flake8 lint
       uses: py-actions/flake8@v1
       with: 
-       ignore: "F401,F403,F405,E501"
+       ignore: "F401,F403,F405,E501,W605"
        
     - name: Install dependencies
       run: |
