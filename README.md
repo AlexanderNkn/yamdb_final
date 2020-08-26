@@ -1,7 +1,7 @@
 # yamdb_final
 Это REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
-![example workflow file path](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg)
+https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg
 
 ### Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
