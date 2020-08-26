@@ -2,6 +2,8 @@
 
 ![yamdb Actions Status](https://github.com/AlexanderNkn/yamdb_final/workflows/.github/workflows/yamdb.yaml/badge.svg)
 
+[![Android-master Actions Status](https://github.com/AlexanderNkn/yamdb_final/workflows/yamdb/badge.svg)](https://github.com/AlexanderNkn/yamdb_final/actions)
+
 Это REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
 ### Описание
