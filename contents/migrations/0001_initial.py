@@ -15,7 +15,9 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Category',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True,
+                                        serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('slug', models.SlugField(unique=True)),
             ],
@@ -23,7 +25,9 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Genre',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True,
+                                        serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('slug', models.SlugField(unique=True)),
             ],
@@ -31,13 +35,21 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Title',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True,
+                                        serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=200)),
                 ('year', models.IntegerField(blank=True, null=True)),
-                ('description', models.CharField(blank=True, max_length=500, null=True)),
+                ('description', models.CharField(
+                    blank=True, max_length=500, null=True)),
                 ('rating', models.IntegerField(default=0)),
-                ('category', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='title_category', to='contents.Category')),
-                ('genre', models.ManyToManyField(related_name='title_genres', to='contents.Genre')),
+                ('category', models.ForeignKey(
+                    blank=True, null=True,
+                    on_delete=django.db.models.deletion.SET_NULL,
+                    related_name='title_category',
+                    to='contents.Category')),
+                ('genre', models.ManyToManyField(
+                    related_name='title_genres', to='contents.Genre')),
             ],
         ),
     ]

@@ -13,6 +13,10 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='title',
             name='rating',
-            field=models.IntegerField(blank=True, choices=[('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', '5'), ('6', '6'), ('7', '7'), ('8', '8'), ('9', '9'), ('10', '10')], default=0),
+            field=models.IntegerField(
+                blank=True, choices=[('1', '1'), ('2', '2'), ('3', '3'),
+                                     ('4', '4'), ('5', '5'), ('6', '6'),
+                                     ('7', '7'), ('8', '8'), ('9', '9'),
+                                     ('10', '10')], default=0),
         ),
     ]
